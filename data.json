@@ -1,15 +1,63 @@
 [
   {
-    "name": "John Doe",
-    "mobileNumber": "1234567890",
-    "lotteryNumber": "123",
-    "registrationCharge": "RS. 1,250"
+    "name": "Md Shahid",
+    "mobileNumber": "8928240795",
+    "lotteryNumber": "72976",
+    "registrationCharge": "1,250"
   },
   {
-    "name": "Jane Smith",
-    "mobileNumber": "9876543210",
-    "lotteryNumber": "123",
-    "registrationCharge": "$20"
+    "name": "Vaishali",
+    "mobileNumber": "7982574118",
+    "lotteryNumber": "72976",
+    "registrationCharge": "1,250"
+  },
+  {
+    "name": "Laxmi",
+    "mobileNumber": "9352638007",
+    "lotteryNumber": "72976",
+    "registrationCharge": "1,250"
+  },
+  {
+    "name": "Nagmani",
+    "mobileNumber": "9470887111",
+    "lotteryNumber": "72976",
+    "registrationCharge": "1,250"
+  },
+  {
+    "name": "Nanhe",
+    "mobileNumber": "7015247618",
+    "lotteryNumber": "72976",
+    "registrationCharge": "1,250"
+  },
+  {
+    "name": "Tamanna",
+    "mobileNumber": "9829346784",
+    "lotteryNumber": "72976",
+    "registrationCharge": "1,250"
+  },
+  {
+    "name": "Sushil",
+    "mobileNumber": "9650519681",
+    "lotteryNumber": "72976",
+    "registrationCharge": "1,250"
+  },
+  {
+    "name": "Nitu",
+    "mobileNumber": "9472953072",
+    "lotteryNumber": "72976",
+    "registrationCharge": "1,250"
+  },
+  {
+    "name": "Pankaj",
+    "mobileNumber": "9852222082",
+    "lotteryNumber": "72976",
+    "registrationCharge": "1,250"
+  },
+  {
+    "name": "Shikha",
+    "mobileNumber": "8445825175",
+    "lotteryNumber": "72976",
+    "registrationCharge": "1,250"
   },
   {
     "name": "Rajesh Yadav",
@@ -17,6 +65,4 @@
     "lotteryNumber": "1234",
     "registrationCharge": "1,250"
   }
-  
-
 ]
