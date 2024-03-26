@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="favicon.png">
+<title>Mahindra Finance Loan Apply</title>
+
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap')
+</style>
+<style>
+    *{
+      font-family: Poppins;
+    }
+    body {
+        margin: 0 10px;;
+        padding: 0;
+        background-color: #f0f0f0;
+        animation: slideIn .3s ease-in-out;
+    }
+    .container {
+        max-width: 500px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    }
+    @keyframes slideIn {
+        from {
+            transform: translateY(-500px);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    form {
+        margin-top: 10px;
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    input,
+    select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        outline: none;
+        font-size: 16px;
+    }
+    input:focus,
+    input:valid{
+      border: 1px solid black;
+    }
+    select:valid{
+      border: 1px solid black;
+    }
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px 20px;
+        background-color: #D31E35;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    input[type="submit"]:hover {
+        background-color: red;
+    }
+    textarea{
+      border: 1px solid black;
+      border-radius: 5px;
+      width: 94%;
+      outline: none;
+      font-size: 16px;
+      padding: 8px;
+    }
+    #message{
+      text-align: center;
+      display: none;
+      margin-bottom: 15px;
+    }
+    #message span{
+      color: #fff;
+      background: #00c04b;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+    .str{
+      color: red;
+      font-size: 18px;
+    }
+</style>
+</head>
+<body>
+  
+<center>
+  <img src="logo.png" alt="logo" style="width: 200px; pointer-events: none; display: block; margin-top: 20px;">
+</center>
+    
+<div class="container">
+    <div id="contain">
+    <center>
+    <span style="font-size: 28px; font-weight: 600; text-align: center;"><u>LOAN APPLICATION</u></span>
+    </center>
+    <form method="post" name="contact" netlify>
+        <label for="name">Name (नाम):<span class="str"> *</span></label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="mobile">Mobile Number (मोबाईल नंबर):<span class="str"> *</span></label>
+        <div style="display: flex;">
+        <label style="padding: 9px 5px 8px 0; font-size: 16px;" for="mobile">+91</label>
+        <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+        </div>
+        
+        <label for="email">E-mail ID (ई-मेल ID):<span class="str"> *</span></label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="loan_requirement">Loan Requirement (लोन आवश्यकता):<span class="str"> *</span></label>
+        <input type="text" id="loan" name="loan" required>
+        
+        <label for="state">State (राज्य):<span class="str"> *</span></label>
+        <select id="state" name="state" required>
+            <option value="" selected disabled>Select State</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West Bengal">West Bengal</option>
+        </select>
+        
+        <label for="remarks">Remarks (विचार):</label>
+        <textarea id="remarks" name="remarks" rows="4"></textarea>
+        
+        <input type="submit" value="APPLY NOW">
+        </div>
+        <div id="message">
+          <span>Form Submitted Successfully!</span>
+          <p>Thank you for submitting your loan application form. Our dedicated team will call you within the next 24 hours.<br><br>For Any Questions or Issues, You Can Call Helpline No. +91 6289394625.</p>
+          <p>अपना लोन आवेदन पत्र जमा करने के लिए धन्यवाद। हमारी समर्पित टीम अगले 24 घंटों के भीतर आपको कॉल करेगी।<br><br>किसी भी प्रश्न या समस्या के लिए, आप हेल्पलाइन नंबर +91 6289394625 पर कॉल कर सकते हैं।</p>
+          <a href = "tel:+916289394625" style = "padding: 10px 20px; background: #00c04b; text-decoration: none; color: #fff; border-radius: 5px; font-size: 16px;">CALL NOW</a>
+        </div>
+    </form>
+    
+    <script>
+  var form = document.getElementById('sheetdb-form');
+  form.addEventListener("submit", e => {
+    e.preventDefault();
+    fetch(form.action, {
+        method : "POST",
+        body: new FormData(document.getElementById("sheetdb-form")),
+    }).then(
+        response => response.json()
+    ).then((html) => {
+      // alert('Form Submitted')
+      document.getElementById('contain').innerHTML = '';
+      document.getElementById('message').style.display = 'block';
+    });
+  });
+</script>
+</div>
+</body>
+</html>
