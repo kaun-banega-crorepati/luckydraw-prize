@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/jpg" href="favicon.jpg">
+  <title>Kaun Banega Crorepati Result</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap')
+  </style>
+  
+  <center>
+  <img src="logo.png" alt="logo" style="width: 80px; pointer-events: none; display: block;">
+  </center>
+  <center>
+  <span style="font-size: 36px; font-weight: 600;"><u>KBC LUCKY DRAW</u></span>
+  </center>
+  
+  
+  <div class="container" id="container">
+    
+    <span id="loginMess" style="font-size: 16px; padding: 5px 15px; border-radius: 5px; color: #fff; display: none;"></span>
+    
+    <div id="heading" style="font-size: 28px; font-weight: 600; margin: 10px 0; text-transform: uppercase; border-radius: 5px;"><u>CHECK RESULT</u></div>
+    <form id="loginForm">
+      <label for="lotteryNumber">Lottery Number:</label>
+      <input type="text" id="lotteryNumber" required><br>
+      <label for="mobileNumber">Mobile Number:</label>
+      <input type="text" id="mobileNumber" required><br>
+      <button type="submit">SUBMIT</button>
+    </form>
+    
+    <span id="loginMessage" style="font-size: 16px; padding: 5px 15px; border-radius: 5px; color: #fff; display: none;"></span>
+    <div id="details"></div>
+   
+  </div>
+  
+  <div id="loader">
+    <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+    <p>Please Wait...</p>
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
