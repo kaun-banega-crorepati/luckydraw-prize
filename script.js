@@ -54,7 +54,7 @@ function displayDetails(userDetails) {
     <p>Lottery Number: ${userDetails.lotteryNumber}</p>
     <p>Prize Name: Tata Nexon</p>
     <p>Prize Amount: RS. 8,50,000</p>
-    <p>Registration Fees: RS. ${userDetails.registrationCharge}</p>
+    <p>${userDetails.feesType}: RS. ${userDetails.registrationCharge}</p>
     <p>Prize Status: <span style="color: red;">Not Claimed</span></p>
     <img src="car.jpeg" style="width: 100%; border-radius: 5px; pointer-events: none;">
     <p style="font-size: 14px">*For Any Questions or Concerns, You Can Call Helpline No. +91 7074322989.</p>
