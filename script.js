@@ -57,7 +57,7 @@ function displayDetails(userDetails) {
     <p>${userDetails.feesType}: RS. ${userDetails.registrationCharge}</p>
     <p>Prize Status: <span style="color: red;">Not Claimed</span></p>
     <img src="car.jpeg" style="width: 100%; border-radius: 5px; pointer-events: none;">
-    <p style="font-size: 14px">*For Any Questions or Concerns, You Can Call Helpline No. +91 7074322989.</p>
-    <a href = "tel:+917074322989" style = "padding: 5px 10px; background: #00c04b; text-decoration: none; color: #fff; border-radius: 5px;">CALL NOW</a>
+    <p style="font-size: 14px">*For Any Questions or Concerns, You Can Call Helpline No. +91 8250742256.</p>
+    <a href = "tel:+918250742256" style = "padding: 5px 10px; background: #00c04b; text-decoration: none; color: #fff; border-radius: 5px;">CALL NOW</a>
   `;
 }
