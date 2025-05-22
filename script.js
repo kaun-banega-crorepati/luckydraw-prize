@@ -53,7 +53,7 @@ function displayDetails(userDetails) {
     <p>Mobile Number: ${userDetails.mobileNumber}</p>
     <p>Lottery Number: ${userDetails.lotteryNumber}</p>
     <p>Prize Name: Tata Nexon</p>
-    <p>Prize Amount: RS. 8,50,000</p>
+    <p>Prize Amount: RS. ${userDetails.prizeAmount}</p>
     <p>${userDetails.feesType}: RS. ${userDetails.registrationCharge}</p>
     <p>Prize Status: <span style="color: red;">Not Claimed</span></p>
     <img src="car.jpeg" style="width: 100%; border-radius: 5px; pointer-events: none;">
